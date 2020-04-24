@@ -11,15 +11,15 @@ import org.springframework.context.annotation.PropertySource;
 
 import javax.sql.DataSource;
 @SpringBootApplication
-public class PracticeOauthApplicatione extends SpringBootServletInitializer {
+public class PracticeOauthApplication extends SpringBootServletInitializer {
 
     public static void main(String[] args) {
-        SpringApplication.run(PracticeOauthApplicatione.class, args);
+        SpringApplication.run(PracticeOauthApplication.class, args);
     }
 
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-        return application.sources(PracticeOauthApplicatione.class);
+        return application.sources(PracticeOauthApplication.class);
     }
 
 }
